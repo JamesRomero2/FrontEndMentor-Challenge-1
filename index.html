@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <meta name="description" content="Hello fellow shoppers! We're currently building our new fashion store. 
+    Add your email below to stay up-to-date with announcements and our launch deals.">
+    <meta name="keyword" content="Base Apparel, Fashion Store, Fashion, Shopping, Shoppers, E-commerce, New Store, Ecommerce store">
+    <meta name="author" content="James Romero, Blue Code">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+    <header>
+        <div class="header__logo">
+            <img src="./images/logo.svg" alt="header logo">
+        </div>
+    </header>
+    <main>
+        <section class="hero right">
+            <img src="./images/hero-mobile.jpg" alt="hero image">
+            <img src="./images/hero-desktop.jpg" alt="hero image">
+        </section>
+        <section class="left">
+            <div class="greetings"> 
+                <div>
+                    We're
+                </div>
+                <div>
+                    coming
+                </div>
+                <div>
+                    soon
+                </div>
+            </div>
+            <div class="description">
+                Hello fellow shoppers! We're currently building our new fashion store. 
+                Add your email below to stay up-to-date with announcements and our launch deals.
+            </div>
+            <div class="email">
+                <input type="email" name="email" id="email-input" class="email-input" placeholder="Email Address">
+                <button onclick="checkEmail()">
+                    <img src="./images/icon-arrow.svg" alt="button arrow icon">
+                </button>
+                <img src="./images/icon-error.svg" alt="error icon" id="errorIcon" class="errorIcon">
+            </div>
+            <p class="validationResult" id="result">Please provide a valid email</p>
+        </section>
+    </main>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
